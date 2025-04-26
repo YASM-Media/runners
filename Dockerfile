@@ -2,7 +2,7 @@
 FROM ubuntu:24.10
 
 # Runner version to be used.
-ARG RUNNER_VERSION="2.322.0"
+ARG RUNNER_VERSION="2.323.0"
 
 # Accept default answers for all commands
 ENV DEBIAN_FRONTEND=noninteractive

@@ -23,14 +23,14 @@ on:
 
 jobs:
   build_push_image:
-    name: Building and storing PhotoAtom Runner Docker Image
+    name: Building and storing YASM Runner Docker Image
     uses: necro-cloud/automations/.github/workflows/build-docker-image.yml@main
     with:
       dev_version_name: development
       image_name: runner
       image_proper_name: Self Hosted GitHub Runner
       build_path: .
-      repository: necronizerslab
+      repository: yasm
     secrets:
       DOCKER_USERNAME: ${{ secrets.DOCKER_USERNAME }}
       DOCKER_PASSWORD: ${{ secrets.DOCKER_PASSWORD }}

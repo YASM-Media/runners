@@ -1,11 +1,11 @@
-# necronizer's cloud self hosted github runners
+# YASM Media self hosted github runners
 
-This repository contains scripts, Dockerfile and Compose files for running Self Hosted GitHub Runners mainly to communicate with the [self hosted kubernetes cluster](https://github.com/necro-cloud/kubernetes).
+This repository contains scripts, Dockerfile and Compose files for running Self Hosted GitHub Runners mainly to communicate with the [self hosted kubernetes cluster](https://github.com/YASM-Media/cluster).
 
 # Requirements and Dependencies
 
 The following is required to start using this repository:
-1. [Docker and Docker Compose](https://www.docker.com/) - Required to run the self hosted runner as a container.
+1. [Podman and Podman Compose](https://podman.io/) - Required to run the self hosted runner as a container.
 
 # Usage Instructions
 
