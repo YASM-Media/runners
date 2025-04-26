@@ -6,7 +6,7 @@ on:
 jobs:
   test_communication:
     name: Testing Communication with Self Hosted Kubernetes Cluster
-    runs-on: [self-hosted, linux, cloud]
+    runs-on: [self-hosted, linux, yasm]
     env:
       KUBECONFIG: '/tmp/kubernetes/config.yml'
       KUBECONFIG_FOLDER: '/tmp/kubernetes'
